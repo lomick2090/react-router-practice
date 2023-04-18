@@ -1,0 +1,23 @@
+body {
+    margin: 0
+}
+
+.header {
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(138, 138, 138);
+    justify-content: center;
+    align-items: center;
+}
+
+.header > h1 {
+    color: white;
+}
+
+.links {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    left: 20px;
+}
